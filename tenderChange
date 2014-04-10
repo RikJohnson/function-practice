@@ -1,0 +1,32 @@
+// bla bla bla some note to test changes in git branch.
+
+createExample('Tender Change', {
+          description: 'Write a function that given a dollar amount returns \
+            the change in bills and coins. For instance, given \
+            <code>7.23</code> it should return: \
+            <pre>{ fives: 1, ones: 2, dimes: 2, pennies: 3 }</pre>',
+          implementation: null,
+          validation: [
+            {
+              input: 7.23,
+              output: { fives: 1, ones: 2, dimes: 2, pennies: 5 }
+            }
+          ]
+        });
+
+        createExample('The Pluralizer', {
+          description: 'Write a function that takes two arguments, a noun \
+            and a number, and returns the number and the noun in pluralized \
+            form (for instance, "1 dog", "5 cats")',
+          implementation: null,
+          validation: [
+            {
+              input: ['dog', 1],
+              output: '1 dog'
+            },
+            {
+              input: ['cat', 5],
+              output: '5 cats'
+            }
+          ]
+        });
